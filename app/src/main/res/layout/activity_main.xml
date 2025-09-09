@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bg_background">
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ColorPicker"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Tagline -->
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick, Copy, and Share Colors Instantly"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Color Preview Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/colorCard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="24dp"
+        android:layout_marginBottom="24dp"
+        app:cardElevation="12dp">
+
+        <TextView
+            android:id="@+id/colorHex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Pick Color Button -->
+    <Button
+        android:id="@+id/pickColorBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🎨 Pick a Color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0036FF"
+        android:layout_marginBottom="16dp"
+        app:cornerRadius="30dp"/>
+
+    <!-- Generate Color Button -->
+    <Button
+        android:id="@+id/generateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="🎨 Generate Color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF7043"
+        android:layout_marginBottom="16dp"
+        app:cornerRadius="30dp"/>
+
+    <!-- Copy Color Button -->
+    <Button
+        android:id="@+id/copyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="📋 Copy Color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#42A5F5"
+        android:layout_marginBottom="16dp"
+        app:cornerRadius="30dp"/>
+
+    <!-- Share Color Button -->
+    <Button
+        android:id="@+id/shareBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="📤 Share Color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#66BB6A"
+        app:cornerRadius="30dp"/>
+
+</LinearLayout>
