@@ -16,11 +16,17 @@ ColorPicker is a simple and fun Android app that allows you to generate random c
 
 ## Screenshots
 
-![App Screenshot 1](SS/1.png)  
-![App Screenshot 2](SS/2.png)  
-![App Screenshot 3](SS/3.png)  
-![App Screenshot 4](SS/4.png)  
-![App Screenshot 5](SS/5.png)  
+<div align="center">
+
+| ![App Screenshot 1](SS/1.png) | ![App Screenshot 2](SS/2.png) | ![App Screenshot 3](SS/3.png) |
+|:-----------------------------:|:-----------------------------:|:-----------------------------:|
+|        Home Screen            |     Random Color Generated     |    Custom Color Picker        |
+
+| ![App Screenshot 4](SS/4.png) | ![App Screenshot 5](SS/5.png) |
+|:-----------------------------:|:-----------------------------:|
+|    Copy Hex Code              |    Share Color                |
+
+</div>
 
 ---
 
